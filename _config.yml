@@ -1,8 +1,9 @@
 
 # Site settings
-title: Site Title
-email: example@example.not
-name: John Doe
+title: TraiOi
+email: traioi.pentester@gmail.com
+name: TraiOi
+description: Information Security, Tips & Trick
 #baseurl: "/subdirectory" #used if hosting in a subdirectory
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 blogPermalink: "/blog/" # Optional, used by post layout. If absent, "Blog"
@@ -16,8 +17,8 @@ defaults:
     values:
       logoImage: true
 
-# If you want to link only specific pages in your footer or home page, 
-# uncomment the corresponding variable below and add the paths to the 
+# If you want to link only specific pages in your footer or home page,
+# uncomment the corresponding variable below and add the paths to the
 # pages in order as they should show up. Otherwise, page order is set
 # on each page's front matter with the order variable.
 
