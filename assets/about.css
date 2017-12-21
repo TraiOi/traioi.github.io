@@ -1,0 +1,24 @@
+div.center {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+div.center>b.title {
+  color: white;
+}
+
+.block-edu {
+  padding: 0 400px;
+}
+
+.block-skills {
+  padding: 0 750px;
+}
+
+.block-int {
+  padding: 0 750px;
+}
+
+.block-add {
+  padding: 0 750px;
+}
