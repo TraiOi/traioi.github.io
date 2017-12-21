@@ -11,23 +11,22 @@ permalink: /about/
 <link rel="stylesheet" href="{{ "/assets/about.css" | relative_url }}">
 
 <div class="center">
-<center>
+<div class="title">
 <pre><-------------------------------------- HEADER --------------------------------------></pre>
-<pre>
- _____   ___     _     ___    ___    ___
+
+<pre class="ascii">
+  _____   ___     _     ___    ___    ___
  |_   _| | _ \   /_\   |_ _|  / _ \  |_ _|
-  | |   |   /  / _ \   | |  | (_) |  | |
+   | |   |   /  / _ \   | |  | (_) |  | |
    |_|   |_|_\ /_/ \_\ |___|  \___/  |___|
 </pre>
-</center>
-<center>
-<p>Information Security</p>
-traioi.pentester@gmail.com || (+84) 169 961 3362 || 10/02/1994
+<pre class="job">Information Security</pre>
+<pre class="info">traioi.pentester@gmail.com || (+84) 169 961 3362 || 10/02/1994</pre>
 <pre><-------------------------------------- HEADER --------------------------------------></pre>
-</center>
+</div>
 <div class="block-edu">
 <pre>
-<center><h6> ### Education Background ### </h6></center>
+<h6 class="center-edu"> ### Education Background ### </h6>
                                        | 2010 |---| Web developer:
                                        |      |   | - Learning about web programming languages (PHP, Javascript, HTML/CSS, SQL)
                                        |      |   | - Building a simple website
@@ -51,7 +50,7 @@ GPA: 7.0/10                       |    |      |   | - Playing CTF practice sites
                                   |    |      |   | - Learning to write some WriteUp
                                   |    |      |   | GentooLinux:
                                   |    |      |   | - Setup modules in kernel to custom Linux
-                                  |    |      |   | - Learning Perl to automatics system
+                                  |    |      |   | - Learning Perl to automatic system
                                        |      |
 VIETNIX.VN                         |---| 2017 |---| Linux system administrator
 VIETNIX SOLUTION AND TECHNOLOGY JSC|   |      |   | - Configuration DNS Record
@@ -64,7 +63,7 @@ VIETNIX SOLUTION AND TECHNOLOGY JSC|   |      |   | - Configuration DNS Record
 
 <div class="block-skills">
 <pre>
-<center><h6>### Skills ###</h6></center>
+<h6 class="center-skill">### Skills ###</h6>
 English                  : <b style="color: #00CC00">[#######   ]</b>
 Teamwork                 : <b style="color: #00CC00">[##########]</b>
 Linux                    : <b style="color: #00CC00">[##########]</b>
@@ -76,7 +75,7 @@ Pwnable                  : <b style="color: #00CC00">[######    ]</b>
 
 <div class="block-int">
 <pre>
-<center><h6>### Interests ###</h6></center>
+<h6 class="center-int">### Interests ###</h6>
 - CTF
 - Listen to music (R.A.P, Bolero)
 - Reading book (Light novel, manga)
@@ -86,10 +85,11 @@ Pwnable                  : <b style="color: #00CC00">[######    ]</b>
 
 <div class="block-add">
 <pre>
-<center><h6>### Additional Informations ###</h6></center>
+<h6 class="center-add">### Additional Informations ###</h6>
 Blogspot: https://traioi.blogspot.com
 Github: https://github.com/TraiOi
 Git Blog: https://traioi.github.io
 </pre>
 </div>
+<center><pre><-------------------------------------- EOF --------------------------------------></pre></center>
 </div>
