@@ -86,10 +86,11 @@ Pwnable                  : <b style="color: #00CC00">[######    ]</b>
 <div class="block-add">
 <pre>
 <h6 class="center-add">### Additional Informations ###</h6>
-Blogspot: https://traioi.blogspot.com
-Github: https://github.com/TraiOi
-Git Blog: https://traioi.github.io
+Blogspot: <a href="https://traioi.blogspot.com">https://traioi.blogspot.com</a>
+Github: <a href="https://github.com/TraiOi">https://github.com/TraiOi</a>
+Git Blog: <a href="https://traioi.github.io">https://traioi.github.io</a>
 </pre>
 </div>
-<div class="title"><pre><-------------------------------------- EOF --------------------------------------></pre></div>
+<div class="title">
+  <pre><-------------------------------------- EOF --------------------------------------></pre></div>
 </div>
