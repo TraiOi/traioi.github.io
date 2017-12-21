@@ -91,5 +91,5 @@ Github: https://github.com/TraiOi
 Git Blog: https://traioi.github.io
 </pre>
 </div>
-<center><pre><-------------------------------------- EOF --------------------------------------></pre></center>
+<div class="title"><pre><-------------------------------------- EOF --------------------------------------></pre></div>
 </div>
