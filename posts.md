@@ -2,7 +2,7 @@
 title: Blog
 layout: posts
 permalink: /blog/
-order: 2
+order: 1
 ---
 
 <!-- Used to display blog posts by month. Includes a site logo if one is set
