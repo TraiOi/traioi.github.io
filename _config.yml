@@ -1,16 +1,12 @@
-
 # Site settings
 title: TraiOi
 email: traioi.pentester@gmail.com
 name: TraiOi
 description: Information Security, Tips & Trick
 #baseurl: "/subdirectory" #used if hosting in a subdirectory
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-blogPermalink: "/blog/" # Optional, used by post layout. If absent, "Blog"
-                        # link will point to root.
+url: ""
+blogPermalink: "/blog/"
 
-# Put your logo image file in assets/logo.
-# If you don't want a logo, comment the following 5 lines out.
 defaults:
   - scope: # Sets the logo image to be used in the posts and post layout.
       path: "assets/logo"
@@ -32,3 +28,5 @@ defaults:
 exclude:
   - README.md
   - LICENSE.txt
+
+host: 0.0.0.0
