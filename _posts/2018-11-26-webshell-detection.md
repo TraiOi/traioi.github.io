@@ -184,7 +184,7 @@ for x in range(256):
 - Khi kết thúc vòng lặp, NeoPI sẽ lấy được giá trị Entropy của từng file và đưa ra list các file với Entropy giảm dần. Các Entropy càng lớn càng có khả năng là WebShell.  
 
 ###### *c. I.C (Index of Coincidence):*
-- Thông thường, các đoạn mã//văn bản có ý nghĩa sẽ có I.C (tạm dịch là Chỉ số trùng hợp ngẫu nhiên) của kí tự thường nhỏ, có nghĩa là các kí tự phân bố đều nhau trong `data`. Vì vậy I.C của đoạn mã có ý nghĩa sẽ lớn hơn I.C của đoạn mã bị mã hoá hoặc obfuscated.  
+- Thông thường, các đoạn mã//văn bản có ý nghĩa sẽ có I.C (tạm dịch là Chỉ số trùng hợp ngẫu nhiên) của kí tự thường lớn, có nghĩa là các kí tự phân bố đều nhau trong `data`. Vì vậy I.C của đoạn mã có ý nghĩa sẽ lớn hơn I.C của đoạn mã bị mã hoá hoặc obfuscated.  
 ```
 char_count = 0
 total_char_count = 0
