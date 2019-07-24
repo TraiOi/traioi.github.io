@@ -1,0 +1,91 @@
+* {
+  font-family: 'Open Sans';
+}
+
+.main-section > p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 2.0rem;
+  line-height: 32px;
+  margin-bottom: 2%;
+}
+
+.main-section > ul {
+  margin-top: -1%;
+  list-style: circle;
+  padding-left: 4%;
+}
+
+.site-header-title {
+  font-size: 4.5rem;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+p {
+  font-size: 2.0rem;
+}
+
+.main-section > p > img {
+  border: 1px solid #ddd;
+  max-width: 80%;
+  max-height: 80%;
+  margin-bottom: 3%;
+  margin-top: -1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-section > p.index {
+  text-indent: 0;
+  width: auto;
+  border: 1px solid #ddd;
+  background: #000;
+  padding: 1em 1em;
+  margin: 0 0 0.5em 0.5em;
+}
+
+pre > code {
+  white-space: pre-wrap;
+}
+
+pre > code:before {
+  color: #ccc;
+  line-height: 0;
+  opacity: .7;
+  font-style: oblique;
+  content: "...:: Code highlighter ::...\0A\0D\0A\0D";
+}
+
+blockquote {
+  background-color: #303030;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* Emoji */
+.main-section > p > img[alt=":("],
+.main-section > p > img[alt=":v"] {
+  display: inline-block;
+  padding: 0;
+  margin: -5px 0;
+  border: none;
+  width: 25px;
+}

@@ -6,7 +6,7 @@
       <a href="{{ "/" | relative_url }}"><img src="{{ logo.first.path | relative_url }}" class="site-logo" class="u-max-full-width" /></a>
     {% endif %}
 
-    <h1 class="site-header-title">{{page.title}}</h1>
+    <h1 class="site-header-title"><b>{{page.title}}</b></h1>
     <p>{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</p>
     <p>
       {% if site.blogPermalink %}
