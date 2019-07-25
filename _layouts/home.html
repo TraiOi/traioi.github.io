@@ -14,11 +14,16 @@ layout: simple
       {% if page.title == null %}
       {% elsif page.title contains ".md" %}
         <li>
-          -rw-r--r--  1 traioi traioi <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          -rw-r--r--  1 traioi traioi <a class="page-link file" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
         </li>
       {% else %}
         <li>
-          drwxr-xr-x  2 traioi traioi <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}/</a>
+          <style type="text/css" media="screen">
+            a.folder, a.folder:visited {
+              color: #4169E1;
+            }
+          </style>
+          drwxr-xr-x  2 traioi traioi <a class="page-link folder" href="{{ page.url | relative_url }}">{{ page.title | escape }}/</a>
         </li>
       {% endif %}
     {% endfor %}
