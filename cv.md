@@ -8,7 +8,9 @@ permalink: /cv/
 
 [../](../)
 
-<link rel="stylesheet" href="{{ "/assets/about.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/cv.css" | relative_url }}">
+
+
 
 <div class="center">
 <div class="title">

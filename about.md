@@ -8,4 +8,6 @@ permalink: /about/
 
 [../](../)
 
-<link rel="stylesheet" href="{{ "/assets/about.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/cv.css" | relative_url }}">
+
+<!------ Include the above in your HEAD tag ---------->
