@@ -16,8 +16,8 @@
   padding-left: 4%;
 }
 
-.site-header-title {
-  font-size: 4.5rem;
+h1.site-header-title {
+  font-size: 3.8rem;
 }
 
 h3, h4, h5, h6 {
@@ -26,6 +26,19 @@ h3, h4, h5, h6 {
 
 p {
   font-size: 2.0rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+  font-style: italic;
 }
 
 .main-section > p > img {
