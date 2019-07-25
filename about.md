@@ -1,7 +1,7 @@
 ---
 layout: simple
-title: About
-permalink: /about/
+title: AboutMe.md
+permalink: /about
 ---
 
 ### /{{ page.title }}/

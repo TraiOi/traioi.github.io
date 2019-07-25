@@ -11,9 +11,14 @@ layout: simple
   <ul class="page-list">
     {% for path in page_paths %}
       {% assign page = site.pages | where: "path", path | first %}
-      {% if page.title %}
+      {% if page.title == null %}
+      {% elsif page.title contains ".md" %}
         <li>
-          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}/</a><br />
+          -rw-r--r--  1 traioi traioi <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+        </li>
+      {% else %}
+        <li>
+          drwxr-xr-x  2 traioi traioi <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}/</a>
         </li>
       {% endif %}
     {% endfor %}
