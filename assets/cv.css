@@ -1,4 +1,204 @@
 * {
   font-family: 'Open Sans';
   font-size: 2.0rem;
+  padding: 0;
+  margin: 0;
+}
+
+div.cv-header,
+div.cv-timeline,
+div.cv-skill,
+div.cv-interests,
+div.cv-add-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 1400px;
+}
+
+div.cv-header:before,
+div.cv-header:after {
+  content: "<------------------------------------------------ HEADER ------------------------------------------------>";
+}
+
+div.cv-header > h1.cv-title {
+  font-family: 'Oswald',serif;
+  font-weight: 400;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+.cv-info > table {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+.cv-info > table > tbody > tr > td {
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+/* Education Background */
+div.cv-timeline {
+  padding-top: 40px;
+}
+
+div.cv-timeline:before {
+  content: "### Education Background ###";
+  font-family: 'Oswald',serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #00CC00;
+}
+
+.cv-timeline-tree > table {
+  width: 1400px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+  text-align:center;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+
+.cv-timeline-tree > table > tbody > tr > td {
+  border-bottom: none;
+  border-right: 2px dashed #E1E1E1;
+  padding: 0px 10px 0px 10px;
+  margin: 0;
+}
+
+.cv-timeline-tree > table > tbody > tr > td.cv-none {
+  border: none;
+}
+
+tr.cv-timeline-title > td:nth-child(5) {
+  font-weight: 600;
+}
+
+tr.cv-timeline-content > td:nth-child(5):before {
+  content: " - ";
+}
+
+td.cv-timeline-company {
+  font-weight: 600;
+  text-align: right;
+}
+
+.cv-timeline-tree > table > tbody > tr > td:last-child {
+  border-right: none;
+}
+
+.cv-timeline-tree > table > tbody > tr > td:nth-child(3) {
+  width: 10px;
+}
+
+.cv-timeline-tree > table > tbody > tr > td:nth-child(4) {
+  width: 20px;
+}
+
+tr.cv-timeline-break > td:nth-child(4) {
+  border-right: none;
+}
+
+
+/* Skill */
+div.cv-skill {
+  padding-top: 40px;
+}
+
+div.cv-skill:before {
+  content: "### Skill ###";
+  font-family: 'Oswald',serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #00CC00;
+}
+
+.cv-skill > table {
+  width: 400px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+  text-align:center;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+
+.cv-skill > table > tbody > tr > td {
+  border: none;
+  padding: 0px 10px 0px 10px;
+  margin: 0;
+}
+
+.cv-skill > table > tbody > tr > td:nth-child(3) {
+  width: 140px;
+}
+
+.cv-skill > table > tbody > tr > td:nth-child(2),
+.cv-skill > table > tbody > tr > td:nth-child(3),
+.cv-skill > table > tbody > tr > td:nth-child(4) {
+  color: #00CC00;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-skill > table > tbody > tr > td:nth-child(2):before {
+  content: ": ";
+  color: #E1E1E1;
+}
+
+/* Interests  */
+div.cv-interests {
+  padding-top: 40px;
+}
+
+div.cv-interests:before {
+  content: "### Interests ###";
+  font-family: 'Oswald',serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #00CC00;
+}
+
+div.cv-interests > pre {
+  width: 450px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+/* Additional Informations */
+div.cv-add-info {
+  padding-top: 40px;
+}
+
+div.cv-add-info:before {
+  content: "### Additional Informations ###";
+  font-family: 'Oswald',serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #00CC00;
+}
+
+div.cv-add-info > pre {
+  width: 450px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+  white-space: pre-wrap;
+  text-align: left;
 }
