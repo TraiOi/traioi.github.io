@@ -209,13 +209,13 @@ permalink: /about
           <td> &nbsp; </td>
           <td> </td>
         </tr>
-        <!--- 2016 --->
+        <!--- 2017 --->
         <tr class="cv-timeline-title">
           <td class="cv-timeline-company"> VIETNIX.VN </td>
           <td> --- </td>
           <td class="cv-timeline-year"> 2017 </td>
           <td> --- </td>
-          <td> Linux system administrator </td>
+          <td> Linux System Administrator </td>
         </tr>
         <tr class="cv-timeline-content">
           <td class="cv-timeline-company"> VIETNIX SOLUTION AND TECHNOLOGY JSC </td>
@@ -251,6 +251,122 @@ permalink: /about
           <td class="cv-timeline-year"></td>
           <td> </td>
           <td> Managing load balancing (HA proxy, Nginx reverse proxy) </td>
+        </tr>
+        <tr class="cv-timeline-break">
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> &nbsp; </td>
+          <td> </td>
+        </tr>
+
+        <!--- 2018 --->
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"></td>
+          <td> </td>
+          <td class="cv-timeline-year"> 2018 </td>
+          <td> --- </td>
+          <td> Managing Telegram Bots (Python) </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Managing and deploying monitor tools (Grafana, Prometheus, Zabbix, Netdata, ..) </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Configuration firewall/DDos Protection (iptables, fail2ban, CSF). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Managing and deploying multiple servers with automatic tools (Ansible). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Detecting webshell (Perl, Yara). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Customize Cpanel, VestaCP (Bash, Perl, PHP, Ansible). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Alerting Cpanel resources via email/Telegram (Cpanel api, bash). </td>
+        </tr>
+        <tr class="cv-timeline-break">
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> &nbsp; </td>
+          <td> </td>
+        </tr>
+
+        <!--- 2019 --->
+        <tr class="cv-timeline-title">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"> 2019 </td>
+          <td> --- </td>
+          <td> Reasearch & Devevelopment </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"></td>
+          <td> </td>
+          <td class="cv-timeline-year"> </td>
+          <td> </td>
+          <td> Learning new programming language (Golang). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Detecting webshell (Golang). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Managing and deploying projects with CI/CD tool (gitlab-ci). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Managing monitor tools with container (docker-compose). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Managing VMWare Exsi with automatic tools (Terraform, Ansible). </td>
+        </tr>
+        <tr class="cv-timeline-content">
+          <td class="cv-timeline-company"> </td>
+          <td> </td>
+          <td class="cv-timeline-year"></td>
+          <td> </td>
+          <td> Developing web application (Django). </td>
         </tr>
       </table>
     </div>
